@@ -4,3 +4,4 @@ numpy==1.19.5
 opencv-python
 gluoncv
 mxnet
+cv2-tools
