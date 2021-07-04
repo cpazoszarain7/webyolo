@@ -9,6 +9,10 @@ opencv-contrib-python = "*"
 gunicorn = "*"
 numpy = "*"
 Jinja2 = ">=2.10.1"
+python-opencv = "*"
+gluoncv = "*"
+mxnet = "*"
+cv2-tools = "*"
 
 [dev-packages]
 
