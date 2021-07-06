@@ -16,7 +16,7 @@ net = gcv.model_zoo.get_model('yolo3_mobilenet1.0_coco', pretrained=True)
 # Compile the model for faster speed
 net.hybridize()
 
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(-1)
 time.sleep(1) ### letting the camera autofocus 
 
 def gen_frames(): 
