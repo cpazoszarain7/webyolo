@@ -6,3 +6,4 @@ opencv-contrib-python-headless
 gluoncv
 mxnet
 cv2-tools
+youtube_dl

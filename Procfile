@@ -1,1 +1,1 @@
-web: gunicorn webcam:app
+web: gunicorn shibuya:app
