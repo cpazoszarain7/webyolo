@@ -12,7 +12,7 @@ import mxnet as mx
 app = Flask(__name__)
 
 # Load the model
-net = gcv.model_zoo.get_model('yolo3_mobilenet1.0_coco', pretrained=True)
+net = gcv.model_zoo.get_model('ssd_512_mobilenet1.0_voc', pretrained=True)
 # Compile the model for faster speed
 net.hybridize()
 
